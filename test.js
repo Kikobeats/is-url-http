@@ -15,4 +15,6 @@ test('false', t => {
   t.is(isHttpUrl(), false)
   t.is(isHttpUrl('callto://'), false)
   t.is(isHttpUrl('mailto://'), false)
+  t.is(isHttpUrl('httpsucks://lol.wtf'), false)
+  t.is(isHttpUrl('http:!!!\0'), false)
 })
