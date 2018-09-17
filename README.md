@@ -6,7 +6,7 @@
 [![Coverage Status](https://img.shields.io/coveralls/Kikobeats/is-url-http.svg?style=flat-square)](https://coveralls.io/github/Kikobeats/is-url-http)
 [![Dependency status](https://img.shields.io/david/Kikobeats/is-url-http.svg?style=flat-square)](https://david-dm.org/Kikobeats/is-url-http)
 [![Dev Dependencies Status](https://img.shields.io/david/dev/Kikobeats/is-url-http.svg?style=flat-square)](https://david-dm.org/Kikobeats/is-url-http#info=devDependencies)
-[![NPM Status](https://img.shields.io/npm/dm/is-url-http.svg?style=flat-square)](https://www.npmjs.org/package/is-url-http) [![Greenkeeper badge](https://badges.greenkeeper.io/Kikobeats/is-url-http.svg)](https://greenkeeper.io/)
+[![NPM Status](https://img.shields.io/npm/dm/is-url-http.svg?style=flat-square)](https://www.npmjs.org/package/is-url-http)
 
 
 > Check if an URL is a valid HTTP URL.
