@@ -1,10 +1,3 @@
-<a name="1.1.0"></a>
-# 1.1.0 (2019-02-24)
-
-* feat: add browser support ([fa851c7](https://github.com/Kikobeats/is-url-http/commit/fa851c7))
-
-
-
 <a name="1.0.1"></a>
 ## 1.0.1 (2018-09-17)
 
