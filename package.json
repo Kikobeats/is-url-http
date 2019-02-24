@@ -2,7 +2,7 @@
   "name": "is-url-http",
   "description": "Check if an URL is a valid HTTP URL.",
   "homepage": "https://documentup.com/Kikobeats/is-url-http",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "main": "index.js",
   "author": {
     "email": "josefrancisco.verdu@gmail.com",
