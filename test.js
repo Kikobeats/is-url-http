@@ -12,6 +12,7 @@ test('true', t => {
 })
 
 test('false', t => {
+  t.is(isHttpUrl('http://Http://kikobeats.com'), false)
   t.is(isHttpUrl(), false)
   t.is(isHttpUrl('callto://'), false)
   t.is(isHttpUrl('mailto://'), false)

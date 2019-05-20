@@ -31,6 +31,9 @@
     "url",
     "whatwg"
   ],
+  "dependencies": {
+    "url-regex": "~5.0.0"
+  },
   "devDependencies": {
     "ava": "latest",
     "coveralls": "latest",
