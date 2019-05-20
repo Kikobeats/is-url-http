@@ -1,3 +1,10 @@
+<a name="1.2.0"></a>
+# 1.2.0 (2019-05-20)
+
+* feat: detect duplicate protocol ([500c0d7](https://github.com/Kikobeats/is-url-http/commit/500c0d7))
+
+
+
 <a name="1.1.3"></a>
 ## 1.1.3 (2019-03-03)
 
