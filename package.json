@@ -1,7 +1,7 @@
 {
   "name": "is-url-http",
   "description": "Check if an URL is a valid HTTP URL.",
-  "homepage": "https://documentup.com/Kikobeats/is-url-http",
+  "homepage": "https://documentup.com.com/Kikobeats/is-url-http",
   "version": "1.2.0",
   "main": "index.js",
   "author": {
@@ -44,7 +44,7 @@
     "lint-staged": "latest",
     "nyc": "latest",
     "prettier-standard": "latest",
-    "standard": "11",
+    "standard": "latest",
     "standard-markdown": "latest"
   },
   "engines": {
