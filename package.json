@@ -1,7 +1,7 @@
 {
   "name": "is-url-http",
   "description": "Check if an URL is a valid HTTP URL.",
-  "homepage": "https://documentup.com.com/Kikobeats/is-url-http",
+  "homepage": "https://nicedoc.io/Kikobeats/is-url-http",
   "version": "1.2.0",
   "main": "index.js",
   "author": {
