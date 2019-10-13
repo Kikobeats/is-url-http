@@ -1,3 +1,13 @@
+<a name="1.2.1"></a>
+## 1.2.1 (2019-10-13)
+
+* build: add case ([679dbff](https://github.com/Kikobeats/is-url-http/commit/679dbff))
+* build: remove window ([9b21b23](https://github.com/Kikobeats/is-url-http/commit/9b21b23))
+* build: update dependencies ([19eb054](https://github.com/Kikobeats/is-url-http/commit/19eb054))
+* build: update website ([4266b33](https://github.com/Kikobeats/is-url-http/commit/4266b33))
+
+
+
 <a name="1.2.0"></a>
 # 1.2.0 (2019-05-20)
 
