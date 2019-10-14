@@ -1,3 +1,10 @@
+<a name="1.2.2"></a>
+## 1.2.2 (2019-10-14)
+
+* build: revert shim ([71c885c](https://github.com/Kikobeats/is-url-http/commit/71c885c))
+
+
+
 <a name="1.2.1"></a>
 ## 1.2.1 (2019-10-13)
 
