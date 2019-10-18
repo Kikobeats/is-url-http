@@ -9,6 +9,12 @@ test('true', t => {
   t.is(isHttpUrl('https://kikobeats.com'), true)
   t.is(isHttpUrl('https://www.kikobeats.com'), true)
   t.is(isHttpUrl('http://www.kikobeats.com'), true)
+  t.is(
+    isHttpUrl(
+      'http://www.ccrscenter.org/sites/default/files/CCRS%20District%20Practices%20Brief.pdf'
+    ),
+    true
+  )
 })
 
 test('false', t => {
