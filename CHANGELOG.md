@@ -1,3 +1,10 @@
+<a name="1.2.3"></a>
+## 1.2.3 (2019-10-18)
+
+* test: ensure encoded urls are valid ([d934437](https://github.com/Kikobeats/is-url-http/commit/d934437))
+
+
+
 <a name="1.2.2"></a>
 ## 1.2.2 (2019-10-14)
 
