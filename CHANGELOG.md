@@ -1,3 +1,10 @@
+<a name="1.2.4"></a>
+## 1.2.4 (2019-10-18)
+
+* refactor: use encoded url ([77889a1](https://github.com/Kikobeats/is-url-http/commit/77889a1))
+
+
+
 <a name="1.2.3"></a>
 ## 1.2.3 (2019-10-18)
 
