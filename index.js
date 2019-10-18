@@ -7,7 +7,8 @@ const REGEX_HTTP_PROTOCOL = /^https?:\/\//i
 
 module.exports = url => {
   try {
-    return new URL(url) && REGEX_HTTP_PROTOCOL.test(url) && urlRegex.test(url)
+    const { href } = new URL(url)
+    return REGEX_HTTP_PROTOCOL.test(href) && urlRegex.test(href)
   } catch (err) {
     return false
   }
