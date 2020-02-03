@@ -1,3 +1,10 @@
+## 2.0.0 (2020-02-03)
+
+* build: migrate scripts ([45c1080](https://github.com/Kikobeats/is-url-http/commit/45c1080))
+* build: remove browser shim ([f44f557](https://github.com/Kikobeats/is-url-http/commit/f44f557))
+
+
+
 <a name="1.2.4"></a>
 ## 1.2.4 (2019-10-18)
 
