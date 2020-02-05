@@ -1,3 +1,9 @@
+## <small>2.1.1 (2020-02-05)</small>
+
+* test: extend tests for lightweight version ([7b66fb5](https://github.com/Kikobeats/is-url-http/commit/7b66fb5))
+
+
+
 ## 2.1.0 (2020-02-05)
 
 * feat: add lightweight version ([d49eea7](https://github.com/Kikobeats/is-url-http/commit/d49eea7))
