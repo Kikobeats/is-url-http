@@ -1,3 +1,9 @@
+## 2.1.0 (2020-02-05)
+
+* feat: add lightweight version ([d49eea7](https://github.com/Kikobeats/is-url-http/commit/d49eea7))
+
+
+
 ## <small>2.0.1 (2020-02-05)</small>
 
 * Revert "build: remove browser shim" ([e9851c2](https://github.com/Kikobeats/is-url-http/commit/e9851c2))
