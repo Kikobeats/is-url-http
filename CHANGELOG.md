@@ -1,3 +1,9 @@
+## <small>2.0.1 (2020-02-05)</small>
+
+* Revert "build: remove browser shim" ([e9851c2](https://github.com/Kikobeats/is-url-http/commit/e9851c2))
+
+
+
 ## 2.0.0 (2020-02-03)
 
 * build: migrate scripts ([45c1080](https://github.com/Kikobeats/is-url-http/commit/45c1080))
