@@ -3,6 +3,7 @@
   "description": "Check if an URL is a valid HTTP URL.",
   "homepage": "https://nicedoc.io/Kikobeats/is-url-http",
   "version": "2.0.1",
+  "browser": "lightweight.js",
   "main": "index.js",
   "author": {
     "email": "josefrancisco.verdu@gmail.com",
@@ -51,7 +52,8 @@
     "node": ">= 8"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "lightweight.js"
   ],
   "scripts": {
     "clean": "rm -rf node_modules",
@@ -77,5 +79,7 @@
     "*.md": [
       "standard-markdown"
     ]
-  }
+  },
+  "umd:main": "lightweight.js",
+  "unpkg": "lightweight.js"
 }
