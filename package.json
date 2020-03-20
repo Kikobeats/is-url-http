@@ -52,6 +52,7 @@
     "node": ">= 8"
   },
   "files": [
+    "index.d.ts",
     "index.js",
     "lightweight.js"
   ],
