@@ -1,3 +1,10 @@
+## <small>2.1.2 (2020-03-20)</small>
+
+* fix: add types ([ab21a60](https://github.com/Kikobeats/is-url-http/commit/ab21a60)), closes [#6](https://github.com/Kikobeats/is-url-http/issues/6)
+* feat: add types declaration file ([a0ff382](https://github.com/Kikobeats/is-url-http/commit/a0ff382))
+
+
+
 ## <small>2.1.1 (2020-02-05)</small>
 
 * test: extend tests for lightweight version ([7b66fb5](https://github.com/Kikobeats/is-url-http/commit/7b66fb5))
