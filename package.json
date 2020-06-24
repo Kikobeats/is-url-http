@@ -33,7 +33,7 @@
     "whatwg"
   ],
   "dependencies": {
-    "url-regex": "~5.0.0"
+    "is-valid-http": "^2.0.1"
   },
   "devDependencies": {
     "ava": "latest",
