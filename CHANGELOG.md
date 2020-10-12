@@ -1,15 +1,21 @@
-## <small>2.1.2 (2020-03-20)</small>
+# Changelog
 
-* fix: add types ([ab21a60](https://github.com/Kikobeats/is-url-http/commit/ab21a60)), closes [#6](https://github.com/Kikobeats/is-url-http/issues/6)
-* feat: add types declaration file ([a0ff382](https://github.com/Kikobeats/is-url-http/commit/a0ff382))
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-
-
-## <small>2.1.1 (2020-02-05)</small>
-
-* test: extend tests for lightweight version ([7b66fb5](https://github.com/Kikobeats/is-url-http/commit/7b66fb5))
+## 2.2.0 (2020-10-12)
 
 
+### Features
+
+* add browser support ([fa851c7](https://github.com/Kikobeats/is-url-http/commit/fa851c7a55de07fa2d710d4685fa83f4f830276d))
+* add lightweight version ([d49eea7](https://github.com/Kikobeats/is-url-http/commit/d49eea7512531e98f31f832322a5e64bed8a758d))
+* add types declaration file ([a0ff382](https://github.com/Kikobeats/is-url-http/commit/a0ff382c71e129ff7fd3485c6c690f2e390d74ed))
+* detect duplicate protocol ([500c0d7](https://github.com/Kikobeats/is-url-http/commit/500c0d7999a0e0242ac3784ecd49046cf5c519cb))
+
+
+### Bug Fixes
+
+* add types ([ab21a60](https://github.com/Kikobeats/is-url-http/commit/ab21a6081c23eacc2f7eed38bd409ba3d8c6dd5a)), closes [#6](https://github.com/Kikobeats/is-url-http/issues/6)
 
 ## 2.1.0 (2020-02-05)
 
@@ -107,6 +113,3 @@
 # 1.0.0 (2018-09-17)
 
 * First commit ([eaccf59](https://github.com/Kikobeats/is-url-http/commit/eaccf59))
-
-
-
