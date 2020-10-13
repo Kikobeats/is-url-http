@@ -33,7 +33,7 @@
     "whatwg"
   ],
   "dependencies": {
-    "url-regex-safe": "~1.0.2"
+    "url-regex": "~5.0.0"
   },
   "devDependencies": {
     "@commitlint/cli": "latest",
