@@ -1,7 +1,7 @@
 'use strict'
 
 const URL = global.window ? window.URL : require('url').URL
-const urlRegex = require('url-regex')({ exact: true })
+const urlRegex = require('url-regex-safe')({ exact: true, parens: true })
 
 const REGEX_HTTP_PROTOCOL = /^https?:\/\//i
 
