@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.2.4](https://github.com/Kikobeats/is-url-http/compare/v2.2.3...v2.2.4) (2021-07-06)
+
+
+### Bug Fixes
+
+* relative path ([65930e9](https://github.com/Kikobeats/is-url-http/commit/65930e9ab5299a8f7b0b59e62fd01dde0d240a76))
+
 ### [2.2.3](https://github.com/Kikobeats/is-url-http/compare/v2.2.2...v2.2.3) (2021-02-15)
 
 ### [2.2.2](https://github.com/Kikobeats/is-url-http/compare/v2.2.1...v2.2.2) (2020-11-29)
