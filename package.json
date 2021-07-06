@@ -12,8 +12,8 @@
   },
   "contributors": [
     {
-      "name": "Kiko Beats",
-      "email": "josefrancisco.verdu@gmail.com"
+      "name": "George Pickering",
+      "email": "29524044+geopic@users.noreply.github.com"
     }
   ],
   "repository": {
@@ -82,10 +82,6 @@
       "@commitlint/config-conventional"
     ]
   },
-  "simple-git-hooks": {
-    "commit-msg": "npx commitlint --edit",
-    "pre-commit": "npx lint-staged"
-  },
   "lint-staged": {
     "package.json": [
       "finepack"
@@ -96,6 +92,10 @@
     "*.md": [
       "standard-markdown"
     ]
+  },
+  "simple-git-hooks": {
+    "commit-msg": "npx commitlint --edit",
+    "pre-commit": "npx lint-staged"
   },
   "umd:main": "lightweight.js",
   "unpkg": "lightweight.js"
