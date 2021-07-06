@@ -6,6 +6,7 @@ const test = require('ava')
   ({ fn: isHttpUrl, isLightweight }) => {
     test(isLightweight ? 'lightweight » true' : 'true', t => {
       t.is(isHttpUrl('http://kikobeats.com'), true)
+      t.is(isHttpUrl("https://en.wikipedia.org/wiki/Amdahl's_law"), true)
       t.is(isHttpUrl('https://kikobeats.com'), true)
       t.is(isHttpUrl('https://www.kikobeats.com'), true)
       t.is(isHttpUrl('http://www.kikobeats.com'), true)
