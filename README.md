@@ -1,12 +1,8 @@
 # is-url-http
 
 ![Last version](https://img.shields.io/github/tag/Kikobeats/is-url-http.svg?style=flat-square)
-[![Build Status](https://img.shields.io/travis/Kikobeats/is-url-http/master.svg?style=flat-square)](https://travis-ci.org/Kikobeats/is-url-http)
 [![Coverage Status](https://img.shields.io/coveralls/Kikobeats/is-url-http.svg?style=flat-square)](https://coveralls.io/github/Kikobeats/is-url-http)
-[![Dependency status](https://img.shields.io/david/Kikobeats/is-url-http.svg?style=flat-square)](https://david-dm.org/Kikobeats/is-url-http)
-[![Dev Dependencies Status](https://img.shields.io/david/dev/Kikobeats/is-url-http.svg?style=flat-square)](https://david-dm.org/Kikobeats/is-url-http#info=devDependencies)
 [![NPM Status](https://img.shields.io/npm/dm/is-url-http.svg?style=flat-square)](https://www.npmjs.org/package/is-url-http)
-
 
 > Check if an URL is a valid HTTP URL.
 
