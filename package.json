@@ -33,7 +33,8 @@
     "whatwg"
   ],
   "dependencies": {
-    "url-regex-safe": "~2.1.0"
+    "re2": "~1.17.2",
+    "url-regex-safe": "~3.0.0"
   },
   "devDependencies": {
     "@commitlint/cli": "latest",
@@ -83,14 +84,14 @@
     ]
   },
   "nano-staged": {
-    "package.json": [
-      "finepack"
-    ],
     "*.js,!*.min.js,": [
       "prettier-standard"
     ],
     "*.md": [
       "standard-markdown"
+    ],
+    "package.json": [
+      "finepack"
     ]
   },
   "simple-git-hooks": {
