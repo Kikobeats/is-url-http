@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 2.2.6 (2022-01-04)
+
 ### 2.2.5 (2021-11-12)
 
 ### [2.2.4](https://github.com/Kikobeats/is-url-http/compare/v2.2.3...v2.2.4) (2021-07-06)
