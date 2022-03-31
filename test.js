@@ -9,6 +9,7 @@ const test = require('ava')
       t.true(isHttpUrl("https://en.wikipedia.org/wiki/Amdahl's_law"))
       t.true(isHttpUrl('https://kikobeats.com'))
       t.true(isHttpUrl('https://www.kikobeats.com'))
+      t.true(isHttpUrl('https://en.wikipedia.org/wiki/Saw_(disambiguation)'))
       t.true(isHttpUrl('http://www.kikobeats.com'))
       t.true(
         isHttpUrl(
@@ -26,6 +27,7 @@ const test = require('ava')
       t.false(isHttpUrl('httpsucks://lol.wtf'))
       if (!isLightweight) t.false(isHttpUrl('https://admin:admin@test-http-login.vercel.app'))
       if (!isLightweight) t.false(isHttpUrl('http:!!!\0'))
+      if (!isLightweight) t.false(isHttpUrl('http://-kikobeats.com'))
     })
   }
 )
