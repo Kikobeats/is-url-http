@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 2.3.0 (2022-04-27)
+
+
+### Features
+
+* use url-http as dependency ([14f4035](https://github.com/Kikobeats/is-url-http/commit/14f40359b81f81008ce40f895456643f723fb9c8))
+
 ### 2.2.14 (2022-04-12)
 
 ### 2.2.13 (2022-04-04)
