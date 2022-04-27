@@ -3,8 +3,8 @@
   "description": "Check if an URL is a valid HTTP URL.",
   "homepage": "https://nicedoc.io/Kikobeats/is-url-http",
   "version": "2.2.14",
-  "browser": "lightweight.js",
-  "main": "index.js",
+  "browser": "src/lightweight.js",
+  "main": "src/index.js",
   "author": {
     "email": "josefrancisco.verdu@gmail.com",
     "name": "Kiko Beats",
@@ -33,8 +33,7 @@
     "whatwg"
   ],
   "dependencies": {
-    "re2": "~1.17.2",
-    "url-regex-safe": "~3.0.0"
+    "url-http": "~1.0.1"
   },
   "devDependencies": {
     "@commitlint/cli": "latest",
@@ -57,9 +56,7 @@
     "node": ">= 8"
   },
   "files": [
-    "index.d.ts",
-    "index.js",
-    "lightweight.js"
+    "src"
   ],
   "scripts": {
     "clean": "rm -rf node_modules",
@@ -82,6 +79,10 @@
       "@commitlint/config-conventional"
     ]
   },
+  "exports": {
+    ".": "./src/index.js",
+    "./lightweight": "./src/lightweight.js"
+  },
   "nano-staged": {
     "*.js,!*.min.js,": [
       "prettier-standard"
@@ -97,6 +98,7 @@
     "commit-msg": "npx commitlint --edit",
     "pre-commit": "npx nano-staged"
   },
+  "types": "src/index.d.ts",
   "umd:main": "lightweight.js",
   "unpkg": "lightweight.js"
 }
