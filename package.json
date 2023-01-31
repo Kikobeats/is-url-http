@@ -1,7 +1,7 @@
 {
   "name": "is-url-http",
   "description": "Check if an URL is a valid HTTP URL.",
-  "homepage": "https://nicedoc.io/Kikobeats/is-url-http",
+  "homepage": "https://github.com/Kikobeats/is-url-http",
   "version": "2.3.2",
   "browser": "lightweight.js",
   "main": "index.js",
@@ -62,7 +62,7 @@
   ],
   "scripts": {
     "clean": "rm -rf node_modules",
-    "contributors": "(git-authors-cli && finepack && git add package.json && git commit -m 'build: contributors' --no-verify) || true",
+    "contributors": "(npx git-authors-cli && npx finepack && git add package.json && git commit -m 'build: contributors' --no-verify) || true",
     "lint": "standard-markdown README.md && standard",
     "postrelease": "npm run release:tags && npm run release:github && (ci-publish || npm publish --access=public)",
     "prerelease": "npm run update:check && npm run contributors",
