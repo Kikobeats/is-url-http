@@ -1,3 +1,4 @@
 declare module 'is-url-http' {
-  export = function isUrlHttp(url: string): boolean;
+  function isUrlHttp(url: string): boolean;
+  export = isUrlHttp;
 }
