@@ -3,8 +3,11 @@
   "description": "Check if an URL is a valid HTTP URL.",
   "homepage": "https://github.com/Kikobeats/is-url-http",
   "version": "2.3.5",
-  "browser": "lightweight.js",
+  "types": "index.d.ts",
   "main": "index.js",
+  "browser": "lightweight.js",
+  "umd:main": "lightweight.js",
+  "unpkg": "lightweight.js",
   "author": {
     "email": "josefrancisco.verdu@gmail.com",
     "name": "Kiko Beats",
@@ -99,8 +102,5 @@
   "simple-git-hooks": {
     "commit-msg": "npx commitlint --edit",
     "pre-commit": "npx nano-staged"
-  },
-  "types": "index.d.ts",
-  "umd:main": "lightweight.js",
-  "unpkg": "lightweight.js"
+  }
 }
