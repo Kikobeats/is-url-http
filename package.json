@@ -40,7 +40,7 @@
     "whatwg"
   ],
   "dependencies": {
-    "url-http": "~1.1.1"
+    "url-http": "~1.2.0"
   },
   "devDependencies": {
     "@commitlint/cli": "latest",
