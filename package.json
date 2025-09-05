@@ -2,7 +2,7 @@
   "name": "is-url-http",
   "description": "Check if an URL is a valid HTTP URL.",
   "homepage": "https://github.com/Kikobeats/is-url-http",
-  "version": "2.3.10",
+  "version": "2.3.11",
   "types": "index.d.ts",
   "main": "index.js",
   "browser": "lightweight.js",
