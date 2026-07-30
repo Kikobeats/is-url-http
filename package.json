@@ -1,8 +1,8 @@
 {
   "name": "is-url-http",
-  "description": "Check if an URL is a valid HTTP URL.",
+  "description": "Check whether a string is a valid HTTP or HTTPS URL using WHATWG URL parsing.",
   "homepage": "https://github.com/Kikobeats/is-url-http",
-  "version": "2.3.13",
+  "version": "2.3.5",
   "types": "index.d.ts",
   "main": "index.js",
   "browser": "lightweight.js",
@@ -36,11 +36,14 @@
     "http",
     "https",
     "is",
+    "uri",
     "url",
+    "valid",
+    "validate",
     "whatwg"
   ],
   "dependencies": {
-    "url-http": "~1.3.0"
+    "url-http": "~1.0.2"
   },
   "devDependencies": {
     "@commitlint/cli": "latest",
@@ -48,12 +51,10 @@
     "ava": "latest",
     "c8": "latest",
     "ci-publish": "latest",
-    "conventional-github-releaser": "latest",
     "finepack": "latest",
     "git-authors-cli": "latest",
+    "github-generate-release": "latest",
     "nano-staged": "latest",
-    "npm-check-updates": "latest",
-    "prettier-standard": "latest",
     "simple-git-hooks": "latest",
     "standard": "latest",
     "standard-markdown": "latest",
@@ -72,25 +73,28 @@
     "contributors": "(npx git-authors-cli && npx finepack && git add package.json && git commit -m 'build: contributors' --no-verify) || true",
     "lint": "standard-markdown README.md && standard",
     "postrelease": "npm run release:tags && npm run release:github && (ci-publish || npm publish --access=public)",
-    "prerelease": "npm run update:check",
     "pretest": "npm run lint",
     "pretty": "prettier-standard index.js {core,test,bin,scripts}/**/*.js --single-quote --print-width 100",
     "release": "standard-version -a",
-    "release:github": "conventional-github-releaser -p angular",
+    "release:github": "github-generate-release",
     "release:tags": "git push --follow-tags origin HEAD:master",
-    "test": "c8 ava",
-    "update": "ncu -u",
-    "update:check": "ncu -- --error-level 2"
+    "test": "c8 ava"
   },
   "license": "MIT",
   "commitlint": {
     "extends": [
       "@commitlint/config-conventional"
-    ]
+    ],
+    "rules": {
+      "body-max-line-length": [
+        0
+      ]
+    }
   },
   "nano-staged": {
-    "*.js,!*.min.js,": [
-      "prettier-standard"
+    "*.js": [
+      "npx @kikobeats/prettier-standard",
+      "standard --fix"
     ],
     "*.md": [
       "standard-markdown"
