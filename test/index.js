@@ -1,6 +1,6 @@
 'use strict'
 
-const test = require('ava')
+const test = require('ava').default
 
 ;[{ fn: require('..') }, { fn: require('../lightweight'), isLightweight: true }].forEach(
   ({ fn: isHttpUrl, isLightweight }) => {
